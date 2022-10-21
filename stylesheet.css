@@ -1,0 +1,375 @@
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.home{
+    background-image:linear-gradient(to bottom, rgba(9, 33, 66, 0.9)5%,rgba(9, 33, 66, 1)95%),url(itt.jpg) ;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    padding: 40px 0;
+}
+.home .image {
+    margin-left: 480px;
+    margin-top: 10px;
+}
+.nav-item{
+    font-weight: 60;
+    font-size: 1.2rem;
+}
+.nav-item a:hover
+.nav-item a:active
+.nav-item a:focus{
+    color: orangered !important;
+}
+.a{
+    text-align: center;
+    font-size: 20px;
+}
+
+.flex-container1 {
+    padding: 40px 0;
+    margin: 10px 20px;
+    width: 80%;
+    height: 170px;
+    display: flex;
+    flex-wrap: nowrap;
+    margin: auto;
+}
+.flex-container1 > div {
+    padding: 10px 10px;
+    margin: 20px 20px;
+    width: 800px;
+    height: 300px;
+    box-shadow: 5px 5px 8px grey;
+}
+.img{
+    text-align: center;
+}
+.flex-container2 {
+    padding: 250px 20px;
+    width: 80%;
+    height: 170px;
+    display: flex;
+    flex-wrap: nowrap;
+    margin: auto;
+}
+.flex-container2 > div {
+    padding: 10px 10px;
+    margin: 20px 20px;
+    width: 800px;
+    height: 300px;
+    box-shadow: 5px 5px 8px grey;
+      
+}
+h2{
+    text-align: center;
+    margin: 150px;
+    font-size: 40px;
+}
+h6{
+    text-align: center;
+    margin: -130px;
+}
+.flex-container3 {
+    padding: 160px 20px;
+    display: flex;
+    margin-left: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+.flex-container3 > div {
+    padding: 20px 10px;
+    margin: 20px 20px;
+    border: 1px solid white;
+    box-shadow: 0 0 5px black;
+      
+}
+.checked{
+    color:orange;
+}
+.span{
+    padding: 10px 10px;
+}
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  button[type=button]{
+      width: 20%;
+      background-color: yellow;
+      height: 50px;
+  }
+  button[type=button1]{
+    width: 100%;
+    background-color: yellow;
+    height: 50px;
+}
+div.image-container{
+    background-color: navy;
+    height: 100%;
+    padding: 80px 50px;
+    
+}
+.image{
+    margin-left: 390px;
+    margin-bottom: -370px;
+}
+button[type=reset]{
+    width: 15%;
+    background-color: grey;
+    height: 50px;
+}
+button[type=button1]{
+    width: 50%;
+    margin: 0 80px;
+    background-color: yellow;
+    height: 50px;
+}
+.flex-container4 {
+    padding: 20px 20px;
+    display: flex;
+    margin: 50px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+
+}
+.flex-container4 > div {
+    padding: 20px 10px;
+    width: 27%;
+    margin: 20px 20px;
+    box-shadow: 5px 5px 8px grey;
+}
+.flex-container5 {
+    padding: 20px 20px;
+    display: flex;
+    margin: 50px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+
+}
+.flex-container5 > div {
+    padding: 20px 10px;
+    width: 27%;
+    margin: 20px 20px;
+    box-shadow: 5px 5px 8px grey;
+}
+.flex-container7 {
+    padding: 20px 20px;
+    display: flex;
+    margin: 50px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+
+}
+.flex-container7 > div {
+    padding: 20px 10px;
+    width: 27%;
+    margin: 30px;
+    box-shadow: 5px 5px 8px grey;
+    
+}
+.flex-container8 {
+    padding: 20px 20px;
+    display: flex;
+    margin: 50px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 100%;
+
+}
+.flex-container8 > div {
+    padding: 20px 10px;
+    width: 27%;
+    margin: 30px;
+    border: 1px solid black;
+    border-radius: 5ex;
+}
+
+li{
+    color: white;
+}
+.list{
+    padding: 20px 20px;
+}
+ul{
+    text-decoration: none;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+    
+  }
+  .column {
+    float: left;
+    width: 30%;
+    padding: 20px;
+    margin-left: 40px;
+  }
+  pre{
+      font-size: 20px;
+      font-family:  sans-serif;
+      
+  }
+  .column img{
+      
+      border-radius: 15px;
+      width: 320px;
+      height: 300px;
+  }
+  .flex-container4 img{
+      border-radius: 5px ;
+  }
+  .flex-container11{
+    padding: 160px 20px;
+    display: flex;
+    margin-left: 20px;
+    flex-wrap: wrap;
+    margin-top: -150px;
+    
+
+}
+.flex-container11 > div {
+    padding: 20px 10px;
+    margin: 20px 20px;
+    width: 30%;
+    box-shadow: 5px 5px 8px grey;
+      
+}
+.flex-container11 img{
+    width: 350px;
+    height: 250px;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .top-left {
+    position: absolute;
+    top: 10px;
+    left: 16px;
+    border: 1px solid ;
+    padding: 10px 10px;
+    background-color: yellow;
+    color: black;
+  }
+  .flex-container11 h3{
+      padding: 10px 10px;
+
+  }
+
+  .flex-container11 p{
+      text-align: left;
+      margin: 10px;
+  }
+  .flex-container12 {
+    padding: 10px 10px;
+    display: flex;
+    margin-left:40px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    
+}.flex-container12 img{
+    width: 350px;
+    height: 250px;
+}
+
+.flex-container12 > div {
+    padding: 20px 10px;
+    box-shadow: 5px 5px 8px grey;
+    margin: 20px;
+    
+}
+.row1::after {
+    content: "";
+    clear: both;
+    display: table;
+    
+  }
+  .column1 {
+    float: left;
+    width: 15%;
+    padding: 10px 10px;
+    margin-left: 60px;
+  }
+  .column1 img{
+      
+    background-size: cover;
+    width: 200px;
+    height: 250px;
+    
+}
+.flex-container12 h3 {
+    margin-left: 2px;
+    padding: 10px 10px ;
+}
+.flex-container12 p{
+    margin-left: 12px;
+}
+.flex-container13 {
+    padding: 10px 10px;
+    display: flex;
+    
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 100%;
+    background-image:linear-gradient(to bottom, rgba(9, 33, 66, 0.9)5%,rgba(9, 33, 66, 1)95%),url(itt.jpg) ;
+    background-position: fixed;
+    background-repeat: no-repeat;
+}
+.flex-container13 > div {
+    padding: 20px 10px;
+    margin-left: 50px;
+    margin: 20px;
+    width: 100%;
+}
+.flex-container13 img {
+    width: 75px ;
+    height: 50px;
+    margin-left: 90px;
+    
+}
+.flex-container13 p {
+    color: white;
+    text-align: center;
+}
+.flex-container15 > div {
+    padding: 20px 10px;
+    margin-left: 50px;
+    margin: 20px;
+    width: 100%;
+}
+.flex-container15 {
+    padding: 10px 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    background-color: rgb(20, 20, 126);
+}
+.flex-container15 h3 {
+    color: yellow;
+}
+.flex-container15 p{
+    color: white;
+}
+.flex-container15 img{
+    width: 15px;
+    height: 10px;
+}
+.flex-container15  button{
+    margin-bottom: 50px;
+    
+}
